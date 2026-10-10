@@ -1,0 +1,59 @@
+{
+  "titre": "Meurtre au Manoir Delacroix",
+  "intro": "Le vieux Baron Delacroix a été retrouvé mort dans sa bibliothèque, un verre de cognac renversé à ses pieds. Quatre personnes étaient au manoir cette nuit-là. L'une d'elles ment.",
+  "salt": "JN+Hnx/txN6tl/7uKbv1Jw==",
+  "joueurs": [
+    {
+      "id": "hercule",
+      "nom": "Hercule Lebrun",
+      "role": "Le majordome",
+      "perso": {
+        "iv": "FPBY7/e1z/Z7+/AX",
+        "data": "+XW9NfHwbDJpFd5k/yiKrMwP6eTrCDwZW2i5XmhLR1s6iCxq9BFw/4MZC8bVFzEXr2giJpx1N1+Eoe8NCgaF4Ee/hNqCcB+HpOPbxT6OEzCrigIhm2P+QZDaJQ+f5WKiy0m4QrIJ1SSA4LY6fu2KmvMiv1siJ+G0Sg7wa3B6O7dQixWm9zCRQM4+8B37uzgJF9lUR5ZruYMJRWrgZcZMHANTrSYeaHF8fSrl7JUbyBvnimzrE1jDHDevhoEulvi8MukICb3cDuL9ZnvDWiZP8MkGVfBzL7z8odMq9aM4SWih12Yw72LhzPHWPAc8uYhKz9+TrkRiW7OosBwWLUVvxC5rrYV4QYFAw3L1bq3LtDyEWySjhHd79VqrApD42J51BbJzosFE33T4pZMIPoKrVX+bQEvXx8BfaGB2lHWLJ/Ixv4aJD4br8YL02EkgtCQ2lrwJyPj8DTfKu2ZOkcyx1yMKz5Vbo6J50MgVzetS1Oj+gBg5Glj3ZmrMpa08PT/jl4zgzzfXyafG4tE39r07SjZBZhF1kCjNaLG9dO1Qi2J0a0xJM47fkzq1JMoYm+Sb1pxXkTeOXSAyZNzD1EVqKOTFHqDzWM5/qeQAN/740ZKlmM32GIXxumQXecvgqq2MMLWoB9zY5x8Lcp1lPyadnd6TvQtgUw4VmC8DGQxJh1vgMj/U6NtcLEnlf1HPib/IW4wNTaXVp2dVfOgGRZy7YzCy3uya88K8iRywTl7YWOrmIHXNR6Xb+dnShxPT6iOQL9L7x5SuoBKl+NbCIK6tNqLPkDmRufsRdjyWRtq4ioWKXRnuOTBmdPDbAQ0ETFc6W3sqbG7aD61PaB1qWCIHUL5jLcTyVdGinPnTQuh4ff/QA0NqRGVJA3UnLNsr0IlJjpE3du7BYn12qANunNChTwM3YJy6IZjbqiH16zI6BWgP70liMFakAyO0doqTM1H1"
+      },
+      "fouille": {
+        "iv": "ORhKwuNCipgc5pzP",
+        "data": "9NxcZTc621Wm0DE/ksP5WxWPd5lCsqE56D5WbX1gmpYTY3Y3PtEHMEf+KiqZ2JemIp6t8yH+SN70J1AS+6PDccvMpZ3L3eHKbGeS/3gj1KBV7Upqa8yrxBTID0xi0CMaxyxqlI3Wq1q9Cx3abrFRMmWcGeNzIUsb3c/glFyPxitZeP8xJEFW+8X24dasWbAs+QYN6wrS9R6zjEIpaONROJFjo11SBqxLU8AyD5nJdgSm+49X0D3h1s17X4ii2eK0Oi/rAklL5ti528K1HlmB3cqlBmxjrf+LImeKkiqrKmH65jk="
+      }
+    },
+    {
+      "id": "moreau",
+      "nom": "Docteur Moreau",
+      "role": "Le médecin de famille",
+      "perso": {
+        "iv": "373Xi4DgN0oBoF2I",
+        "data": "2q/f4zYtdK28OWww55IEYNmulvNUdaB9bt4KO4OfOo3sxP6CjoLFWNOiSYwJIuKJQZ2vzGFhNR8rep6ytQh32wEaXGbINM1Kek8KCNKfYzGcYH+tPcmY3MgTqO0stwLhbdd1iYG1HIvDr8CixjpJhdJBoP3XNKJuTyTDK3X69Xy8lJ2vgaXeTlKro4PH1j+oXNU9z/+7PE5Am1Z4wwPauQv9koVqpeRn89qA+HNARYjakGwyMS1ZJ4CmyqgrCJBZVATC9VbGluW8UDjhwt9KFtgszcgncSalrPbRljGP7VlSICKxr/ltE9evRyhTphvABjK+cWGwzucPqwLBZOb1rK6ePv3ZZwztXpbZo8lB2/3njdivoOpUrQh77bA8u+5hJlDPBKeNcvC+wzzGQMGo3f9SH6NxTYgkGQqZwxfOfbKmxirtghZEUxF6Z2grnPuBupTUraE4AXQR/LoRW5JhjcvKa6c6nPyB9j2ymXL16lGltBREcisgrbNBhcq780SuKmfUQuT03fnJCPFNg2H+7Ijdvg0NqnscoOrImiSf/kUWk4IEpLQWVqok8emrh0YpAw0P7ZY0ZWPF0LmuphAp9vdSUmbrGdcjAMoefx4xvQ8yVVRb/+u3s0J3/AjY2IMeNi2uk4e7VawdnVO0VHYrsSZAlvaAZeO9RnS3TGEcqjkgaAs81WlIjdFXNrTCZ0mV3iZjaha51cIcsZIx2Lfqjxpos+rc9YFfo8VU23xLw3zjxsywzakeV6ToVOanbMcDaf7sOcoKwfFWyTQcjDZsJJ+A0pxZyUfEL1Lbj6HJJJSQSZhsIMrYbsyMpOGaNpREdAyRsmqNjizMU8+f"
+      },
+      "fouille": {
+        "iv": "c+Yx1qbDv7SgVO/r",
+        "data": "UI/PC2FeTkNdI9P7csenvDwg2DZp1Vm8rxZxE2GZ2puTaUdk8uuJpcSo2S3L3ng7BneNqqCZ0WTVIKsCO5k0qMpFF3K7Rjw5rAyEVE8CXzrbTlR7RH3O8w23MfKGVMXRUdI2DauheZ58E1aoK1r8wOiUq6mK/G11YkZUILA1oOvpciSbxCzXcmLW1r8agWs9H4vcplAWvTdvAoI="
+      }
+    },
+    {
+      "id": "camille",
+      "nom": "Camille Delacroix",
+      "role": "L'héritière",
+      "perso": {
+        "iv": "PQFN7jH2n5ad9Xxm",
+        "data": "TdGLodLeOB1zModTunGpN1TA/9XFHv3+rCwOt8IyEEnEVuunpF8U2M7pB6B7aVqmu17exexDXf5t25YbhD1+njrcJAi0s4ekcX1OrFTxJTiXlHU8L7bM7aYGPtE7vc44Ev0eaR4LXuVIpHhp+8ew5mvknGQUu2VV9WuyEm+SKekEhkO5P8yChlq1NdJ4a+RHRMkflb6phCLIgIF6t7ep2FTTRW1rptkNlXtRaS+ec00gnLxlmye7jQSaJU+e07A6NV+wHCTCX+PIJ9GqdLTFeQVSdXX6lvI0CnOwaM2Sojca3Bc7QBtUDIPcEYoHOsiqDNpK1BygoMdkTnjTeyPQ/ljAyv/saLz7m0JZ3w7JusV3E+LX/DAn4LZKzaNHvei+FzBlWDHnBuJZQ7qJWx/kCi9qXT/MAm5p1GsdMKr/QdQpY0Wbkp+2HjQkalm6GOgjrcgbdwuBUDW/EkLPyyRizlL4Bfj+DGBrsTU7XA+mdCo3i60kdO1jK7Pxmsa5OwjP58Ep62wCrbX5Z0mKHzJ3fRHaDLK1Uto2M4KGDKprz5xNhqHTc81g7aDOS1LcPLfJklbnuuoxyhDt9mVTzaIx9kYDGbiGeim7pGU4XMy49fn6thrkHeNx1RL75Y0EY3THcBeXi53aNa0CvHmLqOtVdsEPvDqGV8XHENKbb0f5eDw31Q3oZIXSouPCa++N9MRAuYm0HotnVWPhdgZo8VOTzTPTpVdi2AQVNq3v58pTS8JKxA6VoB4m"
+      },
+      "fouille": {
+        "iv": "eODGeBaKc7kYFiZi",
+        "data": "azT1xVWe+CdtEkOO3MJVH3zM3I2cAoedHzlpDgLTA9tpb/HutMcsTVE+LUnoL5A42zts4U5xisEHAGW+TglgGVIa0MlKRnqf9VHMtDNwPcwutZDFUEmPXhj5qK8F9qCTwA9C41wA5NWIw/x9M3k0mozmA+2YLNcoXJ4ibQvRY4T3PLHIVZ9SCE/6PcvCNcZOFOC19sza/SIeZDV4IyN7/Jn1Q+yxKudrOmgL"
+      }
+    },
+    {
+      "id": "rose",
+      "nom": "Rose Vautrin",
+      "role": "La gouvernante",
+      "perso": {
+        "iv": "FuoDS1S+4duqdYG5",
+        "data": "pcjicK4vTkAGMtGabgZL7aQIdR9tXzmeBfzJBcFnXI7yJJP2K5R2bSckJRbz83Cj2pZcURoa816Z46dtOLhh54i0lidaeiFUFsFMV0gZVCjs1VOO2NCgtyJr4eNsTGmMm9pARHl0LEC7PBZ5EfDZGX6ykQzhIPfxMkahvkwuDFRJXHX1lFOFwbrSCHE67YufmjYrBcdCaNrDGgjlIN+yVatevzaWrAkN/q+QdHX5GJ5TY5SXNhtv/jm+3xDb9W3QRwh0hQKwT8BzbS6S+1w/3QBCPqe3mQrQ/9ejhru7USo69PB52KyBBTGFb5pxwKDmOb4xeUPIfk11cUgTAU3Mj80ylB/kucU1P34ESnqMzAFoE314F7VAKerYrtGUuLOSOMm23FwP1D0Y3sDfjmPT9zas9Hq/punyNHAp8MLonOwgrnBkCNflkcHIw9skxvoJRxttanWe9TYtRb0ZoQeXX5voZ69khLoor7f4ZkXEiGmvV8iwJ7xtlYhDzkPSQrebdN5mvYQ1foIF82VqV4hONU7XrCUAP3pLl1OEnjerXnmYpmhPpzap+U2v7TGSELuESF5GNZKOWhNMi3Sa0NQvgsgMlqNoMOAVfXyzXERfuXq798cdSiwi9QDuRnTeeoYyG7y1bGgnvV90rktuEB8vUkS9daqbPkroPO0YzaMiHJb8Wr7sl0jY2Rd1vyoqHuZ+21y00//zyOw2TEY3rXV422K1EEU4xw=="
+      },
+      "fouille": {
+        "iv": "+cycpyu1TVm/mLed",
+        "data": "1IqB3Ue+K9cramGT1eavZTcXNyAezl3SwpKUceVRSw1bq9GnLRnYu1fmEZ5ZF2DgpIEo5ArjABvgu2idYL1qPo5VHxEtR5nBTx3HL2psiTt74ZZ971/WjFBj8KK70IkTu9unzMGfpvUxZvww0EaidB4ouWDzQou54n9Xk9folpxVEhGXETRzNRnPgqTSEaOfWC0FDsLdhzrA0IGKHOeuoAltzilD9zxLdJtPTptxdH/DL/MkJdSv9Yxaow=="
+      }
+    }
+  ]
+}

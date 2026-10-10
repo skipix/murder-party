@@ -1,0 +1,86 @@
+{
+  "titre": "Meurtre au Manoir Delacroix",
+  "intro": "Le vieux Baron Delacroix a été retrouvé mort dans sa bibliothèque, un verre de cognac renversé à ses pieds. Quatre personnes étaient au manoir cette nuit-là. L'une d'elles ment.",
+  "joueurs": [
+    {
+      "id": "hercule",
+      "nom": "Hercule Lebrun",
+      "role": "Le majordome",
+      "codeAcces": "MAJOR-01",
+      "codeFouille": "FOUILLE-HL",
+      "script": [
+        "Vous servez la famille Delacroix depuis trente-deux ans. Vous connaissez chaque recoin du manoir, chaque habitude du Baron, et chaque secret de cette maison.",
+        "Hier soir, vous avez servi le cognac au Baron vers 22h, comme chaque soir. Vous l'avez laissé seul dans la bibliothèque. Vous êtes allé vous coucher à 22h30.",
+        "Vous êtes loyal, discret, et vous détestez l'héritière qui veut vendre le manoir."
+      ],
+      "secrets": [
+        "Vous avez vu le Docteur Moreau sortir de la bibliothèque à 23h15, alors que vous étiez censé dormir. Vous ne direz rien à moins qu'on vous le demande directement.",
+        "Le Baron vous a promis une rente dans son testament. Si le manoir est vendu, vous perdez tout."
+      ],
+      "fouille": [
+        "Une clé de la cave à vin, qui ne devrait pas être sur vous.",
+        "Une lettre du Baron datée de la semaine dernière : « Hercule, après ma mort, veillez à ce que personne ne touche au coffre. »"
+      ]
+    },
+    {
+      "id": "moreau",
+      "nom": "Docteur Moreau",
+      "role": "Le médecin de famille",
+      "codeAcces": "DOC-MOREAU",
+      "codeFouille": "FOUILLE-DM",
+      "script": [
+        "Vous êtes le médecin personnel du Baron depuis dix ans. Il souffrait du cœur, et vous étiez le seul à connaître la gravité de son état.",
+        "Vous étiez invité à dîner hier soir. Vous dites être monté vous coucher à 22h45.",
+        "Vous avez des dettes de jeu considérables, et le Baron le savait."
+      ],
+      "secrets": [
+        "Vous êtes retourné dans la bibliothèque à 23h pour supplier le Baron de vous prêter de l'argent. Il a refusé. Il était vivant quand vous êtes parti.",
+        "Vous avez prescrit au Baron un médicament qui, mélangé à l'alcool, peut provoquer un arrêt cardiaque. Vous l'aviez prévenu."
+      ],
+      "fouille": [
+        "Un flacon de digitaline, à moitié vide.",
+        "Un reçu de casino pour une dette de 40 000 francs, échéance dans trois jours."
+      ]
+    },
+    {
+      "id": "camille",
+      "nom": "Camille Delacroix",
+      "role": "L'héritière",
+      "codeAcces": "CAM-HERIT",
+      "codeFouille": "FOUILLE-CD",
+      "script": [
+        "Vous êtes la nièce du Baron et son unique héritière. Vous vivez à Paris et ne venez au manoir que pour les fêtes.",
+        "Vous voulez vendre le manoir, qui coûte une fortune en entretien. Votre oncle s'y opposait farouchement.",
+        "Hier soir, vous vous êtes disputée avec lui au dîner, devant tout le monde."
+      ],
+      "secrets": [
+        "Vous avez entendu, de votre chambre, un bruit de verre brisé vers 23h30. Vous n'êtes pas descendue.",
+        "Vous savez que votre oncle comptait modifier son testament cette semaine. Vous ne savez pas en faveur de qui."
+      ],
+      "fouille": [
+        "Un rendez-vous chez un notaire, pris pour demain matin.",
+        "Un télégramme d'un promoteur immobilier : « Offre valable jusqu'à vendredi. »"
+      ]
+    },
+    {
+      "id": "rose",
+      "nom": "Rose Vautrin",
+      "role": "La gouvernante",
+      "codeAcces": "ROSE-GOUV",
+      "codeFouille": "FOUILLE-RV",
+      "script": [
+        "Vous tenez le manoir depuis cinq ans. Vous êtes arrivée après la mort de la Baronne, et le Baron s'est beaucoup appuyé sur vous.",
+        "Hier soir, vous avez rangé la salle à manger après le dîner, puis vous êtes montée vers 23h.",
+        "Vous êtes réservée, observatrice, et vous ne laissez rien paraître."
+      ],
+      "secrets": [
+        "Le Baron vous avait demandée en mariage le mois dernier. Vous aviez accepté. Personne ne le sait.",
+        "C'est vous que le nouveau testament devait avantager. Vous avez vu le brouillon sur son bureau."
+      ],
+      "fouille": [
+        "Une bague de fiançailles, cachée dans un mouchoir.",
+        "Une page arrachée d'un carnet : « Mardi — rendez-vous avec Maître Garnier, nouveau testament. »"
+      ]
+    }
+  ]
+}
