@@ -1,4 +1,0 @@
-# Clé privée, configuration et données bancaires : jamais dans git.
-config.json
-*.pem
-data/
