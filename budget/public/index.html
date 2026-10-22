@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mon budget</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <header class="top">
+    <h1>Mon budget <span id="mode" class="badge"></span></h1>
+    <div class="actions">
+      <button id="btn-connect">Connecter une banque</button>
+      <button id="btn-sync" class="primary">Synchroniser</button>
+      <button id="btn-settings" class="ghost">Réglages</button>
+    </div>
+  </header>
+
+  <div id="banner" class="banner" hidden></div>
+
+  <main>
+    <section id="accounts" class="accounts"></section>
+
+    <section class="filters" aria-label="Filtres">
+      <label>Période <select id="f-period"></select></label>
+      <label>Compte <select id="f-account"></select></label>
+      <label>Catégorie <select id="f-category"></select></label>
+      <label class="grow">Recherche <input id="f-search" type="search" placeholder="Libellé, commerçant…"></label>
+      <label class="check"><input id="f-internal" type="checkbox" checked> Ignorer épargne et virements internes</label>
+    </section>
+
+    <section id="kpis" class="kpis"></section>
+
+    <section class="charts">
+      <figure class="card wide">
+        <figcaption>Revenus et dépenses par mois <span class="muted">· 12 derniers mois</span></figcaption>
+        <div id="legend-monthly" class="legend"></div>
+        <div id="chart-monthly" class="chart"></div>
+      </figure>
+      <figure class="card">
+        <figcaption>Dépenses par catégorie <span class="muted">· cliquer pour filtrer</span></figcaption>
+        <div id="chart-categories" class="chart"></div>
+      </figure>
+      <figure class="card">
+        <figcaption>Budgets <span id="budget-scope" class="muted"></span></figcaption>
+        <div id="budgets"></div>
+      </figure>
+    </section>
+
+    <section class="card">
+      <div class="table-head">
+        <h2>Transactions <span id="tx-count" class="muted"></span></h2>
+        <button id="btn-csv" class="ghost">Exporter CSV</button>
+      </div>
+      <div class="table-wrap">
+        <table id="tx">
+          <thead>
+            <tr>
+              <th data-sort="date" aria-sort="descending">Date</th>
+              <th data-sort="label">Libellé</th>
+              <th data-sort="account">Compte</th>
+              <th data-sort="category">Catégorie</th>
+              <th data-sort="amount" class="num">Montant</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+      <button id="btn-more" class="ghost more" hidden>Afficher plus</button>
+    </section>
+  </main>
+
+  <dialog id="dlg-connect">
+    <form method="dialog" class="dlg">
+      <h2>Connecter une banque</h2>
+      <div class="row">
+        <label>Pays <input id="c-country" maxlength="2" size="3"></label>
+        <label class="grow">Banque <input id="c-filter" type="search" placeholder="Rechercher…"></label>
+      </div>
+      <ul id="c-banks" class="bank-list"></ul>
+      <details>
+        <summary>La redirection n’a pas ramené ici ?</summary>
+        <p class="muted">Colle l’adresse complète de la page sur laquelle la banque t’a renvoyé (elle contient <code>code=</code>).</p>
+        <div class="row">
+          <input id="c-return-url" class="grow" placeholder="https://…?state=…&code=…">
+          <button id="c-finish" type="button">Valider</button>
+        </div>
+      </details>
+      <div class="dlg-actions"><button value="cancel" class="ghost">Fermer</button></div>
+    </form>
+  </dialog>
+
+  <dialog id="dlg-settings">
+    <form method="dialog" class="dlg">
+      <h2>Réglages</h2>
+      <h3>Budgets mensuels (€)</h3>
+      <div id="s-budgets" class="budget-grid"></div>
+      <h3>Règles de catégorisation</h3>
+      <p class="muted">Une règle par ligne : <code>motif =&gt; Catégorie</code>. Le motif est une expression régulière
+        (insensible à la casse) testée sur le libellé et la contrepartie ; la première règle qui correspond l’emporte.
+        Une catégorie choisie à la main dans le tableau reste prioritaire.</p>
+      <textarea id="s-rules" rows="12" spellcheck="false"></textarea>
+      <h3>Catégories</h3>
+      <textarea id="s-categories" rows="6" spellcheck="false"></textarea>
+      <h3>Comptes</h3>
+      <ul id="s-accounts" class="plain"></ul>
+      <div class="dlg-actions">
+        <button value="cancel" class="ghost">Annuler</button>
+        <button id="s-save" value="save" class="primary">Enregistrer</button>
+      </div>
+    </form>
+  </dialog>
+
+  <div id="tooltip" class="tooltip" role="status" hidden></div>
+  <script type="module" src="/app.js"></script>
+</body>
+</html>
